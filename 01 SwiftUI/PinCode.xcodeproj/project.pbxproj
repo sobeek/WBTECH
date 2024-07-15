@@ -11,9 +11,6 @@
 		FCA6D4712C32E10C00ED3775 /* PincodeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6D4702C32E10C00ED3775 /* PincodeScreen.swift */; };
 		FCA6D4732C32E10E00ED3775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA6D4722C32E10E00ED3775 /* Assets.xcassets */; };
 		FCA6D4762C32E10E00ED3775 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA6D4752C32E10E00ED3775 /* Preview Assets.xcassets */; };
-		FCA6D4802C32E10E00ED3775 /* PinCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6D47F2C32E10E00ED3775 /* PinCodeTests.swift */; };
-		FCA6D48A2C32E10E00ED3775 /* PinCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6D4892C32E10E00ED3775 /* PinCodeUITests.swift */; };
-		FCA6D48C2C32E10E00ED3775 /* PinCodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6D48B2C32E10E00ED3775 /* PinCodeUITestsLaunchTests.swift */; };
 		FCA6D4992C32E1C400ED3775 /* PinCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6D4982C32E1C400ED3775 /* PinCodeView.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,10 +38,7 @@
 		FCA6D4722C32E10E00ED3775 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCA6D4752C32E10E00ED3775 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FCA6D47B2C32E10E00ED3775 /* PinCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCA6D47F2C32E10E00ED3775 /* PinCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeTests.swift; sourceTree = "<group>"; };
 		FCA6D4852C32E10E00ED3775 /* PinCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCA6D4892C32E10E00ED3775 /* PinCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeUITests.swift; sourceTree = "<group>"; };
-		FCA6D48B2C32E10E00ED3775 /* PinCodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FCA6D4982C32E1C400ED3775 /* PinCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				FCA6D46D2C32E10C00ED3775 /* PinCode */,
-				FCA6D47E2C32E10E00ED3775 /* PinCodeTests */,
-				FCA6D4882C32E10E00ED3775 /* PinCodeUITests */,
 				FCA6D46C2C32E10C00ED3775 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,23 +103,6 @@
 				FCA6D4752C32E10E00ED3775 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		FCA6D47E2C32E10E00ED3775 /* PinCodeTests */ = {
-			isa = PBXGroup;
-			children = (
-				FCA6D47F2C32E10E00ED3775 /* PinCodeTests.swift */,
-			);
-			path = PinCodeTests;
-			sourceTree = "<group>";
-		};
-		FCA6D4882C32E10E00ED3775 /* PinCodeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FCA6D4892C32E10E00ED3775 /* PinCodeUITests.swift */,
-				FCA6D48B2C32E10E00ED3775 /* PinCodeUITestsLaunchTests.swift */,
-			);
-			path = PinCodeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCA6D4802C32E10E00ED3775 /* PinCodeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +252,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCA6D48A2C32E10E00ED3775 /* PinCodeUITests.swift in Sources */,
-				FCA6D48C2C32E10E00ED3775 /* PinCodeUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
