@@ -11,7 +11,7 @@ import SwiftUI
 struct PinCodeApp: App {
     var body: some Scene {
         WindowGroup {
-            PincodeScreen(phoneNumber: "+7(012)345-67-89")
+            TelephoneNumberLogin()
         }
     }
 }

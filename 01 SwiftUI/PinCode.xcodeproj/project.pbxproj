@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC07398B2C45493300E3C231 /* TelephoneNumberLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0739882C45493200E3C231 /* TelephoneNumberLogin.swift */; };
+		FC07398C2C45493300E3C231 /* TelephoneNumberLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0739892C45493200E3C231 /* TelephoneNumberLoginView.swift */; };
 		FCA6D46F2C32E10C00ED3775 /* PinCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6D46E2C32E10C00ED3775 /* PinCodeApp.swift */; };
 		FCA6D4712C32E10C00ED3775 /* PincodeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6D4702C32E10C00ED3775 /* PincodeScreen.swift */; };
 		FCA6D4732C32E10E00ED3775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA6D4722C32E10E00ED3775 /* Assets.xcassets */; };
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC0739882C45493200E3C231 /* TelephoneNumberLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelephoneNumberLogin.swift; sourceTree = "<group>"; };
+		FC0739892C45493200E3C231 /* TelephoneNumberLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelephoneNumberLoginView.swift; sourceTree = "<group>"; };
 		FCA6D46B2C32E10C00ED3775 /* PinCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCA6D46E2C32E10C00ED3775 /* PinCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeApp.swift; sourceTree = "<group>"; };
 		FCA6D4702C32E10C00ED3775 /* PincodeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PincodeScreen.swift; sourceTree = "<group>"; };
@@ -67,9 +71,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC07398A2C45493200E3C231 /* TelephoneNumber */ = {
+			isa = PBXGroup;
+			children = (
+				FC0739882C45493200E3C231 /* TelephoneNumberLogin.swift */,
+				FC0739892C45493200E3C231 /* TelephoneNumberLoginView.swift */,
+			);
+			path = TelephoneNumber;
+			sourceTree = "<group>";
+		};
 		FCA6D4622C32E10C00ED3775 = {
 			isa = PBXGroup;
 			children = (
+				FC07398A2C45493200E3C231 /* TelephoneNumber */,
 				FCA6D46D2C32E10C00ED3775 /* PinCode */,
 				FCA6D46C2C32E10C00ED3775 /* Products */,
 			);
@@ -238,6 +252,8 @@
 				FCA6D4712C32E10C00ED3775 /* PincodeScreen.swift in Sources */,
 				FCA6D46F2C32E10C00ED3775 /* PinCodeApp.swift in Sources */,
 				FCA6D4992C32E1C400ED3775 /* PinCodeView.swift in Sources */,
+				FC07398C2C45493300E3C231 /* TelephoneNumberLoginView.swift in Sources */,
+				FC07398B2C45493300E3C231 /* TelephoneNumberLogin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
